@@ -6,3 +6,4 @@ let num2 = 66;
 
 alert("O valor da variável A é: " + num1)
 alert("O valor da variável B é: " + num2)
+
