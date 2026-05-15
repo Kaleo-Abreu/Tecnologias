@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="veiculo.js"></script>
     <title>Programação Front-End</title>
 </head>
 <body>
@@ -15,13 +16,25 @@
         }
         saudacao();
 
+
         function exibirMensagem(cumprimento, nome) {
-            document.write(cumprimento +", " + nome + "!");
+            document.write(cumprimento +", " + nome + "! <br>");
         }
         exibirMensagem("Bom dia", "Kaleo");
 
 
-    </script>
+        function somar(a, b) {
+            return a + b;
+        }
+        document.write("Soma de: " +  somar(15, 5));
 
+
+        function multiplicacao(a, b) {
+            return a * b;
+        }
+        document.write("<br>Multiplicação de: " +  multiplicacao(15, 5));
+
+       
+    </script>
 </body>
 </html>
